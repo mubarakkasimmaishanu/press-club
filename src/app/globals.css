@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #202522;
+  --color-paper: #F7F5F0;
+  --color-forest: #345746;
+  --color-forest-dark: #274235;
+  --color-forest-light: #446f59;
+  --color-burgundy: #873D42;
+  --color-burgundy-dark: #6e3034;
+  --color-slate: #686D69;
+  --color-rule: #DCDDD6;
+  --color-rule-dark: #c0c2b8;
+  --color-surface: #FFFFFF;
+
+  --font-serif: var(--font-newsreader), "Source Serif 4", "Libre Baskerville", Georgia, serif;
+  --font-sans: var(--font-inter), "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --ink: #202522;
+  --paper: #F7F5F0;
+  --forest: #345746;
+  --burgundy: #873D42;
+  --slate: #686D69;
+  --rule: #DCDDD6;
+  --surface: #FFFFFF;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Editorial Print Utilities */
+.font-serif-headline {
+  font-family: var(--font-serif);
+}
+
+.editorial-rule {
+  border-color: var(--rule);
+}
+
+.editorial-kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.editorial-dropcap::first-letter {
+  float: left;
+  font-family: var(--font-serif);
+  font-size: 3.75rem;
+  line-height: 0.82;
+  padding-right: 0.45rem;
+  padding-top: 0.15rem;
+  color: var(--forest);
+  font-weight: 700;
+}
+
+/* Subtle print ink selection */
+::selection {
+  background-color: #34574624;
+  color: #202522;
+}
+
+/* Smooth reading scroll */
+html {
+  scroll-behavior: smooth;
+}
