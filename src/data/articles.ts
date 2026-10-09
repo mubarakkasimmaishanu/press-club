@@ -25,13 +25,13 @@ export const articles: Article[] = [
     author: authors[0], // Amina Bello
     publishedAt: "October 8, 2026",
     readTime: "4 min read",
-    featuredImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
-    imageCaption: "Delegates Amina Bello and Farouk Ibrahim confer before the final motion round at Arewa House, Kaduna.",
-    imageCredit: "Photo: Chidi Okafor / Al-Ihyahz Press Club",
+    featuredImage: "/images/trophy_champions.jpg",
+    imageCaption: "Delegation champions Amina Bello and Farouk Ibrahim proudly display the championship trophy and academic medals.",
+    imageCredit: "Photo: Al-Ihyahz Press Club Archive",
     tags: ["Debate", "Academic Excellence", "Kaduna Championship", "Student Leadership"],
     isLead: true,
     isSampleContent: true,
-    editorialNote: "Demonstration Article: Published as realistic editorial sample for Al-Ihyahz Press Club digital edition.",
+    editorialNote: "Official Photo & Coverage: Al-Ihyahz Press Club reporting on student academic achievements.",
   },
   {
     id: "art-2",
@@ -87,9 +87,9 @@ export const articles: Article[] = [
     author: authors[4], // Fatima Yusuf
     publishedAt: "October 6, 2026",
     readTime: "3 min read",
-    featuredImage: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80",
-    imageCaption: "The Academy Assembly Hall before morning devotions and student notices.",
-    imageCredit: "Photo: Chidi Okafor / Al-Ihyahz Press Club",
+    featuredImage: "/images/student_speech_valedictory.jpg",
+    imageCaption: "Student orator and editorial board member addresses the Academy assembly at the annual symposium.",
+    imageCredit: "Photo: Al-Ihyahz Press Club Archive",
     tags: ["Opinion", "Student Governance", "Prefects", "Campus Ethics"],
     isOpinion: true,
     isSecondary: true,
@@ -174,35 +174,35 @@ export const articles: Article[] = [
     author: authors[2], // Zainab Al-Hassan
     publishedAt: "October 3, 2026",
     readTime: "4 min read",
-    featuredImage: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80",
-    imageCaption: "Senior school students during quiet reading hour in the Main Library annex.",
-    imageCredit: "Photo: Chidi Okafor / Al-Ihyahz Press Club",
-    tags: ["Literacy", "Books", "African Literature", "Education"],
+    featuredImage: "/images/academic_graduates.jpg",
+    imageCaption: "Senior scholars in academic convocation robes at the Al-Ihyahz Academy valedictory investiture.",
+    imageCredit: "Photo: Al-Ihyahz Press Club Archive",
+    tags: ["Literacy", "Academic Excellence", "Graduates", "Education"],
     isSampleContent: true,
-    editorialNote: "Demonstration Article: Published as realistic editorial sample for Al-Ihyahz Press Club digital edition.",
+    editorialNote: "Official Photo & Coverage: Al-Ihyahz Press Club reporting on school academic ceremonies.",
   },
   {
     id: "art-7",
-    title: "Eco-Club Plants 150 Neem and Teak Saplings Along Campus Perimeter",
-    slug: "eco-club-plants-150-saplings-campus-perimeter",
-    kicker: "ENVIRONMENT & COMMUNITY",
+    title: "Press Club Cohort & Campus Community: Students Champion Literacy & Media Skills",
+    slug: "press-club-cohort-campus-community-students-champion-literacy",
+    kicker: "CAMPUS CULTURE",
     summary:
-      "Addressing shelterbelt conservation and soil erosion, students partnered with the State Forestry Ministry to establish a protective green belt around the hostel fields.",
+      "Student reporters and press members gathered for their termly newsroom orientation and school documentary session in the Academy quadrangle.",
     body: [
-      "More than eighty student volunteers gathered on Saturday morning wielding hoes and watering cans for the Al-Ihyahz Environmental Club's flagship greening initiative.",
-      "With northern Nigeria experiencing increasingly severe windstorms during the harmattan season, the club collaborated with local agricultural extension officers to plant hardy, drought-resistant neem and teak saplings along the western boundary fence.",
-      "'Every student in JSS1 has been assigned a specific sapling to nurture until their junior secondary graduation,' explained Club Coordinator Farouk Ibrahim. 'Environmental stewardship cannot be taught merely from textbook diagrams; it requires dirt on your hands and patience.'",
-      "The Academy Grounds Department has integrated drip irrigation hoses using recycled greywater from the campus laundry facility to ensure high sapling survival rates."
+      "AL-IHYAHZ CAMPUS — Dressed in their formal academy ties and shirts, members of the Al-Ihyahz Press Club gathered on the school grounds for the start of the term's media literacy orientation program.",
+      "The club, which brings together secondary students from across junior and senior arms, trains students in factual reportage, news writing, interview etiquette, and visual storytelling.",
+      "'Being part of the Press Club teaches us how to observe our school community thoughtfully,' said senior reporter Farouk Ibrahim. 'We learn to give voice to students' academic projects, sports tournaments, and club achievements.'",
+      "The press cohort will be publishing fortnightly dispatches and photo essays across the academic session."
     ],
     category: "campus-life",
     categoryName: "Campus Life & Culture",
     author: authors[1], // Farouk Ibrahim
     publishedAt: "October 2, 2026",
     readTime: "3 min read",
-    featuredImage: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
-    imageCaption: "Volunteers preparing planting pits along the school athletic perimeter.",
-    imageCredit: "Photo: Chidi Okafor / Al-Ihyahz Press Club",
-    tags: ["Environment", "Community Service", "Eco Club", "Campus Green"],
+    featuredImage: "/images/press_club_cohort.jpg",
+    imageCaption: "Al-Ihyahz Press Club student members in uniform on campus.",
+    imageCredit: "Photo: Al-Ihyahz Press Club Archive",
+    tags: ["Press Club", "Campus Life", "Students", "School Uniform"],
     isSampleContent: true,
     editorialNote: "Demonstration Article: Published as realistic editorial sample for Al-Ihyahz Press Club digital edition.",
   },
@@ -236,64 +236,69 @@ export const articles: Article[] = [
 export const photoStories = [
   {
     id: "ps-1",
-    title: "Light & Shadow: Life Inside the Al-Ihyahz Boarding Quadrangles",
+    title: "In Pictures: Campus Life & The Al-Ihyahz Press Club Cohort",
     slug: "life-inside-alihyahz-boarding-quadrangles",
     eventDate: "October 2026",
     photographer: authors[3], // Chidi Okafor
-    coverImage: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
-    caption: "Morning shadows stretch across the central courtyard as students assemble with their school satchels.",
-    description: "A 24-hour visual journal documenting the quiet rhythms, intense prep sessions, and shared laughter of boarding school life at Al-Ihyahz Academy.",
-    tags: ["Photo Essay", "Campus Life", "Boarding School", "Black & White"],
+    coverImage: "/images/press_club_cohort.jpg",
+    caption: "Al-Ihyahz Press Club members and students gather in uniform under the campus shade.",
+    description: "Visual documentation of our student reporters, academic assemblies, and campus spirit across Al-Ihyahz Academy.",
+    tags: ["Press Club", "Campus Life", "Students", "Academy"],
     isSampleContent: true,
     photos: [
       {
-        url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
-        caption: "06:45 AM — Boarding students cross the main courtyard toward morning devotion.",
-        credit: "Chidi Okafor"
+        url: "/images/press_club_cohort.jpg",
+        caption: "Press Club members and students assemble on campus in official academy uniform.",
+        credit: "Al-Ihyahz Press Club Archive"
       },
       {
-        url: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80",
-        caption: "11:20 AM — Physics lab session: measuring pendulum oscillations in groups.",
-        credit: "Chidi Okafor"
+        url: "/images/trophy_champions.jpg",
+        caption: "Debate and academic champions holding the golden trophy and medals.",
+        credit: "Al-Ihyahz Press Club Archive"
       },
       {
-        url: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
-        caption: "04:30 PM — Relaxed moments by the campus mango trees before evening study.",
-        credit: "Chidi Okafor"
+        url: "/images/student_speech_valedictory.jpg",
+        caption: "Student orator addresses the assembly at the school symposium.",
+        credit: "Al-Ihyahz Press Club Archive"
       },
       {
-        url: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80",
-        caption: "08:15 PM — Evening prep hall: focused concentration under warm fluorescent tubes.",
-        credit: "Chidi Okafor"
+        url: "/images/academic_graduates.jpg",
+        caption: "Scholars in blue graduation robes and caps during valedictory honors.",
+        credit: "Al-Ihyahz Press Club Archive"
+      },
+      {
+        url: "/images/debate_speaker_junior.jpg",
+        caption: "Junior orator speaks with microphone during inter-class public speaking.",
+        credit: "Al-Ihyahz Press Club Archive"
       }
     ]
   },
   {
     id: "ps-2",
-    title: "The Battle of Eloquence: Moments from the Zonal Debate Tournament",
+    title: "Moments of Glory: Zonal Academic & Debate Honors",
     slug: "battle-of-eloquence-zonal-debate-tournament",
     eventDate: "October 2026",
     photographer: authors[3], // Chidi Okafor
-    coverImage: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80",
-    caption: "Gestures, tension, and elation captured during intense cross-examination rounds.",
-    description: "Photojournalistic coverage of the 2026 Northern Inter-Collegiate Debate Invitational in Kaduna, capturing the passion of young orators.",
-    tags: ["Debate", "Photojournalism", "Competitions", "Oratory"],
+    coverImage: "/images/trophy_champions.jpg",
+    caption: "Golden trophy presentation celebrating academic excellence and oratory brilliance.",
+    description: "Photojournalistic coverage of Al-Ihyahz Academy students excelling at inter-school competitions and public speaking tournaments.",
+    tags: ["Debate", "Trophy", "Academic Excellence", "Oratory"],
     isSampleContent: true,
     photos: [
       {
-        url: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80",
-        caption: "The opening address from the podium at Arewa House.",
-        credit: "Chidi Okafor"
+        url: "/images/trophy_champions.jpg",
+        caption: "Trophy and medal presentation celebrating victory.",
+        credit: "Al-Ihyahz Press Club Archive"
       },
       {
-        url: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80",
-        caption: "Adjudicators deliberating the point tallies after Round Four.",
-        credit: "Chidi Okafor"
+        url: "/images/student_speech_valedictory.jpg",
+        caption: "Keynote presentation at the podium during the awards assembly.",
+        credit: "Al-Ihyahz Press Club Archive"
       },
       {
-        url: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
-        caption: "The trophy presentation ceremony with the school banner held high.",
-        credit: "Chidi Okafor"
+        url: "/images/debate_speaker_junior.jpg",
+        caption: "Junior student delivering persuasive arguments with microphone.",
+        credit: "Al-Ihyahz Press Club Archive"
       }
     ]
   }

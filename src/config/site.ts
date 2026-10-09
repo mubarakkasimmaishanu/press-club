@@ -59,15 +59,12 @@ export const siteConfig: SiteConfig = {
   navigation: [
     { title: "Home", href: "/" },
     { title: "School News", href: "/category/school-news" },
-    { title: "Current Affairs", href: "/category/news-current-affairs" },
     { title: "Features", href: "/features" },
-    { title: "Interviews", href: "/interviews" },
     { title: "Opinions", href: "/opinions" },
-    { title: "Education", href: "/category/education" },
-    { title: "Campus Life", href: "/category/campus-life" },
-    { title: "Events", href: "/category/events" },
+    { title: "Interviews", href: "/interviews" },
     { title: "Photo Stories", href: "/photo-stories" },
-    { title: "About", href: "/about" },
+    { title: "About Us", href: "/about" },
+    { title: "Contact", href: "/contact" },
   ],
   footerNavigation: {
     categories: [

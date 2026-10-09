@@ -7,6 +7,7 @@ import { Masthead } from "@/components/layout/Masthead";
 import { Footer } from "@/components/layout/Footer";
 import { authors } from "@/data/authors";
 import { siteConfig } from "@/config/site";
+import { LeadershipColumns } from "@/components/editorial/LeadershipColumns";
 
 export const metadata: Metadata = {
   title: "About the Press Club | Editorial Charter & Board",
@@ -90,50 +91,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Student Editorial Board */}
-        <section id="editorial-board" className="mb-10">
-          <div className="border-b border-[var(--ink)] pb-2 mb-6">
-            <h2 className="text-2xl font-serif font-bold text-[var(--ink)]">
-              The Student Editorial Board & Staff
-            </h2>
-            <p className="text-xs text-[var(--slate)]">
-              Current masthead officers for the {siteConfig.currentEdition.session}.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {authors.map((author) => (
-              <div
-                key={author.id}
-                className="bg-white border border-[var(--rule)] p-5 flex items-start gap-4"
-              >
-                <div className="relative w-16 h-16 rounded-full overflow-hidden border border-[var(--rule)] bg-[#dedcd4] shrink-0">
-                  <Image
-                    src={author.avatar}
-                    alt={author.name}
-                    fill
-                    sizes="64px"
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <h3 className="font-serif font-bold text-base text-[var(--ink)]">
-                    {author.name}
-                  </h3>
-                  <span className="text-xs font-semibold text-[var(--forest)] block">
-                    {author.role}
-                  </span>
-                  <span className="text-[11px] text-[var(--slate)] block mb-2 font-mono">
-                    {author.gradeLevel}
-                  </span>
-                  <p className="text-xs text-[var(--slate)] leading-relaxed">
-                    {author.bio}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        {/* School Management, Patrons & Student Leadership Columns */}
+        <div id="editorial-board">
+          <LeadershipColumns />
+        </div>
 
         {/* Editorial Independence & Institutional Relationship */}
         <section className="bg-[#edeae1] border border-[var(--rule-dark)] p-6 sm:p-8 mb-10">

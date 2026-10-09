@@ -11,6 +11,7 @@ description: Stores user preferences, project specifications, and persistent det
 - **Publication Nature:** Real institutional digital newspaper / newsroom. Not a generic portfolio, SaaS blog, or neon-gradient AI site.
 - **Deployment Target:** Vercel.
 - **Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, Lucide React icons.
+- **Core User Preference (Starting Point):** Simplified, clean, breathable layout and sections for the initial launch. Avoid overwhelming density or overly advanced clutter while preserving authoritative editorial character.
 
 ## 2. Editorial Design & Brand Tokens
 - **Primary Ink:** Deep charcoal `#202522`
