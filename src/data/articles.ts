@@ -11,10 +11,10 @@ export const articles: Article[] = [
       "A three-member delegation from Al-Ihyahz Academy defeated nineteen competing secondary institutions after a grueling five-round debate on sustainable education finance in Nigeria.",
     body: [
       "KADUNA — In an electric final round held at the Arewa House Auditorium on Thursday afternoon, the Al-Ihyahz Academy Senior Debating Team secured first place at the Northern Schools Inter-Collegiate Invitational Championship, marking the institution's third zonal victory in five academic sessions.",
-      "The championship motion—'This House Would Mandate Sovereign Resource Taxation Specifically Ring-Fenced for Secondary STEM Infrastructure in West Africa'—saw SS3 Lead Speaker Amina Bello and first-speaker Farouk Ibrahim deliver an airtight rebuttal against Kaduna State Champions Federal Government College.",
+      "The championship motion—'This House Would Mandate Sovereign Resource Taxation Specifically Ring-Fenced for Secondary STEM Infrastructure in West Africa'—saw SS3 Lead Speaker Hauwa'u Abubakar Toro and first-speaker Safiyya Zakariya deliver an airtight rebuttal against Kaduna State Champions Federal Government College.",
       "Chief Adjudicator Dr. Haruna Danbatta commended the delegation for their empirical rigor: 'What distinguished Al-Ihyahz was not merely rhetorical elegance, but an astonishing command of budgetary statistics and policy precedent. Secondary students rarely synthesize macro-fiscal realities with such composure.'",
       "The victory qualifies the delegation for the All-Nigeria National Finals scheduled for December in the Federal Capital Territory, Abuja. The school administration has confirmed a civic reception in the Academy Quadrangle on Monday morning.",
-      "Speaking shortly after receiving the golden trophy, Amina Bello remarked on the intensive preparation behind the trophy: 'Our debate society spent three months interrogating fiscal white papers in the library after prep hours. This is proof that Nigerian students possess the intellectual depth to participate in national development conversations.'"
+      "Speaking shortly after receiving the golden trophy, Hauwa'u Abubakar Toro remarked on the intensive preparation behind the trophy: 'Our debate society spent three months interrogating fiscal white papers in the library after prep hours. This is proof that Nigerian students possess the intellectual depth to participate in national development conversations.'"
     ],
     pullQuote: {
       quote: "What distinguished Al-Ihyahz was not merely rhetorical elegance, but an astonishing command of budgetary statistics and policy precedent.",
@@ -22,11 +22,11 @@ export const articles: Article[] = [
     },
     category: "school-news",
     categoryName: "School News",
-    author: authors[0], // Amina Bello
+    author: authors[0], // Hauwa'u Abubakar Toro
     publishedAt: "October 8, 2026",
     readTime: "4 min read",
     featuredImage: "/images/trophy_champions.jpg",
-    imageCaption: "Delegation champions Amina Bello and Farouk Ibrahim proudly display the championship trophy and academic medals.",
+    imageCaption: "Delegation champions Hauwa'u Abubakar Toro and Safiyya Zakariya proudly display the championship trophy and academic medals.",
     imageCredit: "Photo: Al-Ihyahz Press Club Archive",
     tags: ["Debate", "Academic Excellence", "Kaduna Championship", "Student Leadership"],
     isLead: true,
@@ -44,16 +44,16 @@ export const articles: Article[] = [
       "AL-IHYAHZ CAMPUS — Frequent electrical grid fluctuations will no longer interrupt evening prep hours in the senior reference wing, following the formal commissioning of an experimental 3.5kVA solar inverter engineered by the Junior Engineers and Technicians Society (JETS).",
       "The project, which began during the third term of the previous academic session under the supervision of Physics instructor Engr. Kabir Usman, integrates 8 monocrystalline rooftop panels with recycled, tested lithium-ion packs gathered from obsolete school computer monitors.",
       "The system currently powers forty LED reading stations, the digital card catalog terminal, and the automated attendance scanners in the library's main study hall.",
-      "'We wanted to demonstrate that technical education in Nigerian secondary schools should not remain purely theoretical on chalkboard diagrams,' said JETS President Farouk Ibrahim (SS2). 'When students can build working energy solutions for their own schoolmates, the sense of agency is transformative.'",
+      "'We wanted to demonstrate that technical education in Nigerian secondary schools should not remain purely theoretical on chalkboard diagrams,' said student reporter Safiyya Zakariya (SS2). 'When students can build working energy solutions for their own schoolmates, the sense of agency is transformative.'",
       "The Academy Directorate has allocated supplementary seed funding to explore expanding the pilot array to the Senior Biology and Chemistry laboratories before the end of the term."
     ],
     pullQuote: {
       quote: "Technical education in Nigerian schools cannot remain theoretical diagrams on a chalkboard.",
-      attribution: "Farouk Ibrahim, JETS President",
+      attribution: "Safiyya Zakariya, Deputy Editor",
     },
     category: "education",
     categoryName: "Education & STEM",
-    author: authors[1], // Farouk Ibrahim
+    author: authors[1], // Safiyya Zakariya
     publishedAt: "October 7, 2026",
     readTime: "5 min read",
     featuredImage: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
@@ -104,7 +104,7 @@ export const articles: Article[] = [
     summary:
       "Dr. Idris Mahmud speaks to the Press Club about digital learning guidelines, library revamps, and preparing Al-Ihyahz scholars for international tertiary admissions.",
     body: [
-      "PRESS ROOM — Ahead of the Academy's Founders' Commemoration Week, Editor-in-Chief Amina Bello sat down with Academy Principal Dr. Idris Mahmud in his study to discuss academic strategy, classroom mobile policies, and the evolving mandate of student journalism.",
+      "PRESS ROOM — Ahead of the Academy's Founders' Commemoration Week, Editor-in-Chief Hauwa'u Abubakar Toro sat down with Academy Principal Dr. Idris Mahmud in his study to discuss academic strategy, classroom mobile policies, and the evolving mandate of student journalism.",
       "PRESS CLUB: Dr. Mahmud, the Board recently introduced managed tablet computers in SS1 through SS3 classes. How are educators balancing digital tools with classic textual deep-reading?",
       "DR. MAHMUD: 'Technology is neither salvation nor ruin; it is an amplifier. When we issued curriculum tablets, we deliberately chose not to replace physical texts. A student who cannot sustain forty-five minutes of uninterrupted reading in a printed novel will struggle with complex university analysis. Our rule remains: digital devices for data gathering and simulation, notebooks and printed literature for sustained cognitive depth.'",
       "PRESS CLUB: What role does the school administration envision for an independent student press club?",
@@ -117,7 +117,7 @@ export const articles: Article[] = [
     },
     category: "interviews",
     categoryName: "Interviews & Profiles",
-    author: authors[0], // Amina Bello
+    author: authors[0], // Hauwa'u Abubakar Toro
     publishedAt: "October 5, 2026",
     readTime: "6 min read",
     featuredImage: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
@@ -191,12 +191,12 @@ export const articles: Article[] = [
     body: [
       "AL-IHYAHZ CAMPUS — Dressed in their formal academy ties and shirts, members of the Al-Ihyahz Press Club gathered on the school grounds for the start of the term's media literacy orientation program.",
       "The club, which brings together secondary students from across junior and senior arms, trains students in factual reportage, news writing, interview etiquette, and visual storytelling.",
-      "'Being part of the Press Club teaches us how to observe our school community thoughtfully,' said senior reporter Farouk Ibrahim. 'We learn to give voice to students' academic projects, sports tournaments, and club achievements.'",
+      "'Being part of the Press Club teaches us how to observe our school community thoughtfully,' said Deputy Editor Safiyya Zakariya. 'We learn to give voice to students' academic projects, sports tournaments, and club achievements.'",
       "The press cohort will be publishing fortnightly dispatches and photo essays across the academic session."
     ],
     category: "campus-life",
     categoryName: "Campus Life & Culture",
-    author: authors[1], // Farouk Ibrahim
+    author: authors[1], // Safiyya Zakariya
     publishedAt: "October 2, 2026",
     readTime: "3 min read",
     featuredImage: "/images/press_club_cohort.jpg",
@@ -221,7 +221,7 @@ export const articles: Article[] = [
     ],
     category: "school-news",
     categoryName: "School News",
-    author: authors[0], // Amina Bello
+    author: authors[0], // Hauwa'u Abubakar Toro
     publishedAt: "September 29, 2026",
     readTime: "4 min read",
     featuredImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",

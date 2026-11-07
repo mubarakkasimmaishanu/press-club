@@ -96,7 +96,7 @@ export const siteConfig: SiteConfig = {
     email: "pressclub@alihyahz.edu.ng",
     submissionsEmail: "editor.press@alihyahz.edu.ng",
     pressRoomLocation: "Media Lab 2, Humanities Building, Al-Ihyahz Academy Campus",
-    patronName: "Department of English & Media Studies",
+    patronName: "Malam Mubarak Kasim, Malama Nabila & Malama Sumayya",
   },
   social: {
     twitter: "https://x.com/alihyahz_press",

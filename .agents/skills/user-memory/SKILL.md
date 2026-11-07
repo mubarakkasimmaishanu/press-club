@@ -12,6 +12,17 @@ description: Stores user preferences, project specifications, and persistent det
 - **Deployment Target:** Vercel.
 - **Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, Lucide React icons.
 - **Core User Preference (Starting Point):** Simplified, clean, breathable layout and sections for the initial launch. Avoid overwhelming density or overly advanced clutter while preserving authoritative editorial character.
+- **Authentic Imagery Folder:** `public/images/` containing authentic school photos:
+  - `director.jpg` / `director_engr_zaharaddeen_haruna.jpg` (School Director Engr. Zaharaddeen Haruna, executive portrait)
+  - `press_club_cohort.jpg` (Student cohort & assembly in uniform)
+  - `trophy_champions.jpg` (Debate/academic trophy winners holding golden cup and medals)
+  - `student_speech_valedictory.jpg` (Student member Hauwa'u Abubakar Toro speaking at podium with mic)
+  - `debate_speaker_junior.jpg` (Student member Safiyya Zakariya speaking into microphone)
+  - `academic_graduates.jpg` (Scholars in blue graduation robes and mortarboards)
+- **Leadership Directory Columns (`src/data/leadership.ts`):**
+  - Column 1: School Management (School Director: Engr. Zaharaddeen Haruna [framed executive portrait], Principal: Dr. Idris Mahmud, Vice Principals)
+  - Column 2: Press Club Masters (Malam Mubarak Kasim, Malama Nabila, Malama Sumayya)
+  - Column 3: Student Members (Hauwa'u Abubakar Toro [Editor-in-Chief], Safiyya Zakariya [Deputy Editor])
 
 ## 2. Editorial Design & Brand Tokens
 - **Primary Ink:** Deep charcoal `#202522`
